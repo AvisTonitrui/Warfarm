@@ -9,3 +9,95 @@ Verion 1.2 1/10/18:
   With a website, I will hopefully be able to dliver an experience much more user friendly and make it even easier for you to optimize your prime farming.
   This will not be a short process, as I have to change programming languages and also make the whole program more web compatible. I will update this repl once I have gotten the site into a working state.
   In the meantime, this program will remain up and completely usable. However, all future updates will only be available via th site.
+
+Version 1.1 1/5/18:
+  fixed neptune nodes being initialized as uranus nodes.
+
+Version 1.0 1/3/18:
+  Updated database for mirage prime access
+  noted not yet working listing of unvaulted primes
+  woot! released.
+  hotfix: wrongly input akbolto prime initialization.
+  hotfix: fixed issue with inaccessible mission types not being deleted correctly.
+
+Version 0.16 1/2/18:
+  Time to see if I can finish this quickly, at least get it working anyways.
+  Finished getting everything written, onto debugging
+  Things appear to be working at the moment. The nodes will give all the relics needed, not 100% sure if the math is being done correctly. I will have to test for that after release.
+  Beginning work on database update for mirage prime access and then this will be ready for release.
+
+Version 0.15 1/1/18:
+  A new year has come, and while I don't often make resolutions, the completion of this is going to be one.
+  Nearly have the comparison function finished, just need a few final touches before this is ready to work, though drop tables are now out of date.
+
+Version 0.14 12/31/17:
+  Happy New Years Eve! Would love this to be a new years gift, but that probably won't happen at this rate, We'll see though.
+  Got rid of the part explaining the process for now as it is difficult to easily explain in a non-graphical format.
+  Fixed up the menuing a little bit and added the credits.
+
+Version 0.13 12/19/17:
+  program can now find any combination of nodes that has all requested parts, up to three in size.
+  modified the matching node check function to be usable in more areas
+  nevermind, won't work in a modified way anyways.
+
+Version 0.12 12/18/17:
+  Wow!, it has been quite a long time since I was last here. I am so sorry to all of you.  In the time that I was gone, it appears that repl.it has changed their format, so I can no longer give links to older versions.
+  I know that mirage prime access has messed with my data. I will not fix the database though until I am done with the program.  Anyone who wants to come test, please use relics as of hydroid prime access until fixed.
+  When I update the database, I will also be moving it to a separate file and make this a project instead of a file.
+  Got the list reassembled to be by node now instead of by relic
+  More commenting so I don't forget how things are formatted later down the road
+  Made a function to check if a node combination has all the parts requested
+  began work on the final optimizations, only a couple steps left.
+
+Version 0.11 10/2/2017:
+  As badly as I hoped to get this done soon, I'm am likely going to be a little while now, seeing as I can only get in about 20 lines of code a day.
+  While there is no actual programming in this update, I'm putting this here because I need to figure out the math first, then I'll psuedo-code it and finally put it into this program.  Because I have a little bit more regular access to pen and paper than a PC, I should be able to work a little bit faster during this part. No promises though.
+Version 0.10 9/29/17:
+  I am so behind schedule right now.  Again, I apologize, but when you're a lead in a musical you don't get much free time.
+  Now checks to see if all relics are in a single era to simplify optimization process
+
+Version 0.9 9/26/17:
+  Yes, I know I'm behind schedule.  Trying to work but school is keeping me busy.  I am working on this as much as I can, though.
+  got to the point in the process where we check to make sure all parts are accessible based on planet.
+
+Version 0.8 9/24/17:
+  began work on the process itself
+  reworked shutdown process to be more streamlined
+  made it so primes were added to arrays so that they are accessed easier
+  added planets to a list, and then sort said list by unlock number
+  got the process to the point where all the valid locations are chosen, still need to go through optimizations.
+
+Version 0.7 9/23/17:
+  haven't been able to work much, had a crash losing me progress and life is keeping me busy.  Progress will still come, but at a little slower of a pace.
+  added names to primes and their parts
+  had relics pre-sort their nodes for easier use later down the road
+
+Version 0.6 9/20/17:
+  continued to work on the proces
+
+Version 0.5 9/19/2017:
+  Added eras to relics to simplify optimization process, as eras share very similar drop tables
+  continued work on the process
+
+Version 0.4: 9/18/2017:
+  removed the rarities from prime part relic drops, seeing as so few would have differences across the rarities they occur.  It may get added in for better optimization later, but it is not worth the effort while trying to get the program to work.
+  FAQ is left as empty until people stat asking questions about the program
+  began work on spelling out the tire process for the program
+
+Version 0.3 9/17/2017:
+  began work on menu:
+    nothing currently put into the FAQ
+    started work on writing out the entire process both for others to know and for my own reference
+
+Version 0.2 9/16/2017:
+  finished commenting out the nodes that don't have relic drops
+  defined all of the locations
+  defined all relics
+  defined all primes and their respective parts
+  intial data entry complete, though it is possible I'll need to do another round if I need more information
+
+Version 0.1 9/15/2017:
+  set up classes for the primes and their requirements
+  defined all the planets
+  defined all nodes
+  began to comment out nodes for mission types that don't drop relics
